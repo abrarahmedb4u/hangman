@@ -1,0 +1,68 @@
+#word-container, #guesses-container, #input-container {
+    margin-top: 20px;
+  }
+  body{
+    background-color:#00ff74;
+    font-family: "Poppins", sans-serif;
+    
+}
+h1 samp{
+    font-size: 40px;
+}
+.word-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#word-container{
+    
+    width: 270px;
+    height: 60px;
+    background: #ffffffad;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#word-display{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+#guesses-container{
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(37 255 0);
+    font-size: 20px;
+}
+#lives-container{
+    font-size: 30px;
+    margin-top: 20px;
+}
+  #guess-input {
+    width: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .fa-solid.fa-heart {
+    color: red;
+    margin-right: 5px;
+  }
+  
+  #guess-btn {
+    margin-top: 10px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: #ffffffb3;
+    border: none;
+  }
+  #guess-btn:hover{
+    background-color: red;
+  }
+  .container {
+    text-align: center;
+    /* margin-top: 100px; */
+  }  

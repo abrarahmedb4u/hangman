@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hangman Game</title>
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  <link rel="stylesheet" type="text/css" href="hangman-styles.css">
+  <script src="https://kit.fontawesome.com/d4fc895bf1.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+  <div class="container">
+    
+    <h1><samp><i class="fa-solid fa-person"></i> </samp>Hangman Game</h1>
+    <div class="word-box">
+      <div id="word-container">
+      <p id="word-display"> </p>
+    </div></div>
+    
+    <div id="guesses-container">
+      <p>Guesses: <span id="guesses"></span></p>
+    </div>
+    <div id="lives-container">
+      <p>Lives: <span id="lives"> </span></p>
+    </div>
+    <div id="input-container">
+      <input type="text" id="guess-input" maxlength="1"><br>
+      <button id="guess-btn">Guess</button>
+    </div>
+  </div>
+
+  <script src="hangman-script.js"></script>
+</body>
+</html>
